@@ -2,7 +2,6 @@
   "name": "coscup2018-website-api",
   "version": "0.1.0",
   "description": "COSCUP 2018 website API",
-  "main": ".",
   "scripts": {
     "build": "any-json src/index.yml dist/index.json",
 	"dist": "git subtree push --prefix=dist origin gh-pages",
@@ -15,7 +14,7 @@
   "keywords": [
     "COSCUP"
   ],
-  "author": "",
+  "author": "COSCUP",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/COSCUP/coscup2018-website-api/issues"

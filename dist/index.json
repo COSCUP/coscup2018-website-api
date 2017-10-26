@@ -1,0 +1,70 @@
+{
+    "description": "COSCUP 2018 將在 2018 年舉行！",
+    "registration": {
+        "start_at": "1970-01-01 00:00",
+        "end_time": "2038-01-19 03:14",
+        "link": "https://coscup.kktix.cc/"
+    },
+    "sponsorship": {
+        "diamond": {
+            "title": "鑽石級",
+            "sponsors": [
+                {
+                    "name": "某公司A",
+                    "image": "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png",
+                    "link": "https://coscup.org"
+                },
+                {
+                    "name": "某公司B",
+                    "image": "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png",
+                    "link": "https://coscup.org"
+                }
+            ]
+        },
+        "gold": {
+            "title": "黃金級",
+            "sponsors": [
+                {
+                    "name": "某公司C",
+                    "image": "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png",
+                    "link": "https://coscup.org"
+                }
+            ]
+        },
+        "silver": {
+            "title": "白銀級",
+            "sponsors": [
+                {
+                    "name": "某公司D",
+                    "image": "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png",
+                    "link": "https://coscup.org"
+                }
+            ]
+        }
+    },
+    "social_network": {
+        "blog": "http://blog.coscup.org/",
+        "facebook": "https://www.facebook.com/coscup/",
+        "flickr": "https://www.flickr.com/photos/coscup/",
+        "google_plus": "https://plus.google.com/+coscup",
+        "plurk": "https://www.plurk.com/coscup",
+        "twitter": "https://twitter.com/coscup",
+        "youtube": "https://www.youtube.com/user/thecoscup",
+        "telegram_group": "https://t.me/coscupchat",
+        "telegram_channel": "https://t.me/coscup"
+    },
+    "previous_websites": {
+        "2006": "http://coscup.org/2006/",
+        "2007": "http://coscup.org/2007/",
+        "2008": "http://coscup.org/2008/",
+        "2009": "http://coscup.org/2009/",
+        "2010": "http://coscup.org/2010/",
+        "2011": "http://coscup.org/2011/",
+        "2012": "http://coscup.org/2012/",
+        "2013": "http://coscup.org/2013/",
+        "2014": "https://coscup.org/2014/",
+        "2015": "https://coscup.org/2015/",
+        "2016": "https://coscup.org/2016/",
+        "2017": "https://coscup.org/2017/"
+    }
+}

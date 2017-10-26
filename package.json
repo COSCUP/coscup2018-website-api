@@ -1,0 +1,26 @@
+{
+  "name": "coscup2018-website-api",
+  "version": "0.1.0",
+  "description": "COSCUP 2018 website API",
+  "main": ".",
+  "scripts": {
+    "build": "any-json src/index.yml dist/index.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COSCUP/coscup2018-website-api.git"
+  },
+  "keywords": [
+    "COSCUP"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/COSCUP/coscup2018-website-api/issues"
+  },
+  "homepage": "https://github.com/COSCUP/coscup2018-website-api#readme",
+  "devDependencies": {
+    "any-json": "^3.1.0"
+  }
+}

@@ -2,11 +2,20 @@
 # 目前全都是假資料
 
 description: "COSCUP 2018 將在 2018 年舉行！"
+place: "TBD"
 
 registration:
     start_at: "1970-01-01 00:00"
-    end_time: "2038-01-19 03:14"
+    end_at: "2038-01-19 03:14"
     link: "https://coscup.kktix.cc/"
+
+program:
+    call_for_proposal:
+        start_at: "1970-01-01 00:00"
+        end_at: "2038-01-19 03:14"
+        link: "https://some-link"
+    contact:
+        email: "program@coscup.org"
 
 sponsorship:
     contact:
@@ -57,3 +66,11 @@ previous_websites:
     2015: "https://coscup.org/2015/"
     2016: "https://coscup.org/2016/"
     2017: "https://coscup.org/2017/"
+
+webcast:
+    main_cast: "https://link1"
+    playlist: "https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq"
+    casts:
+        - "https://link1"
+        - "https://link2"
+        - "https://link3"

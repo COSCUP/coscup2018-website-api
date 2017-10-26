@@ -6,6 +6,9 @@
         "link": "https://coscup.kktix.cc/"
     },
     "sponsorship": {
+        "contact": {
+            "email": "sponsorship@coscup.org"
+        },
         "diamond": {
             "title": "鑽石級",
             "sponsors": [

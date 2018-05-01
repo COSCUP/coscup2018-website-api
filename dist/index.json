@@ -1,0 +1,7 @@
+{
+    "main": "main.json",
+    "programs": "programs.json",
+    "sponsors": "sponsors.json",
+    "transportation": "transportation.json",
+    "staffs": "staffs.yml"
+}

@@ -1,46 +1,26 @@
-# Currently, all dummy data!
-# 目前全都是假資料
-
-description: "COSCUP 2018 將在 2018 年舉行！"
-place: "TBD"
+description: "COSCUP 2018 將在 2018 年 8 月 11、12 日舉行！"
+place: "台灣科技大學國際大樓（IB）"
 
 registration:
-    start_at: "1970-01-01 00:00"
-    end_at: "2038-01-19 03:14"
-    link: "https://coscup.kktix.cc/"
+    start_at: "2018-06-20 00:00"
+    end_at: "2018-08-04 00:00"
+    link: "https://coscup2018.kktix.cc/"
 
 program:
     call_for_proposal:
-        start_at: "1970-01-01 00:00"
-        end_at: "2038-01-19 03:14"
-        link: "https://some-link"
+        start_at: "2018-04-25 00:00"
+        end_at: "2018-05-27 23:59"
+        link: "https://bit.ly/2r5CxB0"
     contact:
         email: "program@coscup.org"
 
 sponsorship:
     contact:
         email: "sponsorship@coscup.org"
-    diamond:
-        title: "鑽石級"
-        sponsors:
-            - name: "某公司A"
-              image: "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png"
-              link: "https://coscup.org"
-            - name: "某公司B"
-              image: "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png"
-              link: "https://coscup.org"
-    gold:
-        title: "黃金級"
-        sponsors:
-            - name: "某公司C"
-              image: "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png"
-              link: "https://coscup.org"
-    silver:
-        title: "白銀級"
-        sponsors:
-            - name: "某公司D"
-              image: "https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png"
-              link: "https://coscup.org"
+
+media:
+    contact:
+        email: "media@coscup.org"
 
 social_network:
     blog: "http://blog.coscup.org/"
@@ -67,10 +47,10 @@ previous_websites:
     2016: "https://coscup.org/2016/"
     2017: "https://coscup.org/2017/"
 
-webcast:
-    main_cast: "https://link1"
-    playlist: "https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq"
-    casts:
-        - "https://link1"
-        - "https://link2"
-        - "https://link3"
+# webcast:
+#     main_cast: "https://link1"
+#     playlist: "https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq"
+#     casts:
+#         - "https://link1"
+#         - "https://link2"
+#         - "https://link3"

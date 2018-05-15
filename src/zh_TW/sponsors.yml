@@ -1,0 +1,42 @@
+levels:
+    titanium:
+        title: 鈦金級
+    diamond:
+        title: 鑽石級
+    gold:
+        title: 黃金級
+    silver:
+        title: 白銀級
+    bronze:
+        title: 青銅級
+
+sponsors:
+    - name: 某公司X
+      level: titanium
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org
+
+    - name: 某公司A
+      level: diamond
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org
+
+    - name: 某公司B
+      level: diamond
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org
+
+    - name: 某公司C
+      level: gold
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org
+
+    - name: 某公司D
+      level: silver
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org
+
+    - name: 某公司E
+      level: bronze
+      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+      link: https://coscup.org

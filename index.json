@@ -3,5 +3,5 @@
     "programs": "programs.json",
     "sponsors": "sponsors.json",
     "transportation": "transportation.json",
-    "staffs": "staffs.yml"
+    "staffs": "staffs.json"
 }

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "COSCUP 2018 website API",
   "scripts": {
-    "build": "for file in src/*.yml; do target=dist/${file#src/}; target=${target%.yml}.json; any-json $file $target; done",
+    "build": "rm -rf dist && find src -depth -name *.yml -exec sh -c 'JSON=$(echo $1 | sed -e s/^src/dist/ -e s/yml$/json/); mkdir -p ${JSON%/*} && any-json $1 $JSON' _ {} \\;",
     "dist": "git subtree push --prefix=dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

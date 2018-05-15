@@ -1,5 +1,29 @@
-main: main.json
-programs: programs.json
-sponsors: sponsors.json
-transportation: transportation.json
-staffs: staffs.json
+default_language: zh_TW
+
+languages:
+  - identifier: zh_TW
+    display: 中文（台灣）
+  - identifier: en
+    display: English
+  - identifier: jp
+    display: 日本語
+
+index:
+  zh_TW:
+    main: zh_TW/main.json
+    programs: zh_TW/programs.json
+    sponsors: zh_TW/sponsors.json
+    transportation: zh_TW/transportation.json
+    staffs: zh_TW/staffs.json
+  en:
+    main: en/main.json
+    programs: en/programs.json
+    sponsors: en/sponsors.json
+    transportation: en/transportation.json
+    staffs: en/staffs.json
+  jp:
+    main: jp/main.json
+    programs: jp/programs.json
+    sponsors: jp/sponsors.json
+    transportation: jp/transportation.json
+    staffs: jp/staffs.json

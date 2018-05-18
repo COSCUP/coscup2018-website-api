@@ -4,8 +4,11 @@ location:
     lng: 121.5392837
 transportation:
     metro:
+        name: Metro
         description: 捷運科技大樓站（文湖線）：捷運科技大樓站出口左轉，沿著復興南路步行至辛亥路交叉口，過馬路即可抵達臺大北門，右手邊大樓即為臺大社會科學院，步行路程約 10 分鐘。
     bus:
+        name: Bus
         description: 公車復興南路口站(和平東路)可沿著復興南路步行至辛亥路交叉口，過馬路即可抵達臺大北門，右手邊大樓即為臺大社會科學院，步行路程約 10 分鐘。
     driving:
+        name: Driving
         description: ...

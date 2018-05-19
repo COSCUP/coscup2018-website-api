@@ -1,4 +1,4 @@
-address: 106 台北市大安區基隆路四段 43 號
+address: No. 43 Keelung Road, Section 4, Taipei 106, Taiwan
 place: International Building (IB), NTUST
 location:
     lat: 25.0128108
@@ -6,10 +6,10 @@ location:
 transportation:
     metro:
         name: Taipei Metro
-        description: 捷運科技大樓站（文湖線）：捷運科技大樓站出口左轉，沿著復興南路步行至辛亥路交叉口，過馬路即可抵達臺大北門，右手邊大樓即為臺大社會科學院，步行路程約 10 分鐘。
+        description: 
     bus:
         name: Bus
-        description: 公車復興南路口站(和平東路)可沿著復興南路步行至辛亥路交叉口，過馬路即可抵達臺大北門，右手邊大樓即為臺大社會科學院，步行路程約 10 分鐘。
+        description: 
     driving:
         name: Self driving
         description: ...

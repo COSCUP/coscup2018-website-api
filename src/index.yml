@@ -11,18 +11,21 @@ languages:
 index:
   zh_TW:
     main: zh_TW/main.json
+    about: zh_TW/about.json
     programs: zh_TW/programs.json
     sponsors: zh_TW/sponsors.json
     transportation: zh_TW/transportation.json
     staffs: zh_TW/staffs.json
   en:
     main: en/main.json
+    about: en/about.json
     programs: en/programs.json
     sponsors: en/sponsors.json
     transportation: en/transportation.json
     staffs: en/staffs.json
   jp:
     main: jp/main.json
+    about: jp/about.json
     programs: jp/programs.json
     sponsors: jp/sponsors.json
     transportation: jp/transportation.json

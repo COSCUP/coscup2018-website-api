@@ -1,42 +1,32 @@
 levels:
-    titanium:
-        title: 鈦金級
-    diamond:
-        title: 鑽石級
-    gold:
-        title: 黃金級
-    silver:
-        title: 白銀級
-    bronze:
-        title: 青銅級
-
+  diamond:
+    title: Diamond Level
+  gold:
+    title: Gold Level
+  silver:
+    title: Silver Level
+  bronze:
+    title: Bronze Level
+  co-host:
+    title: Co-host
+  media:
+    title: Media Partners
+  special-thanks:
+    title: Special Thanks
 sponsors:
-    - name: 某公司X
-      level: titanium
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
-
-    - name: 某公司A
-      level: diamond
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
-
-    - name: 某公司B
-      level: diamond
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
-
-    - name: 某公司C
-      level: gold
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
-
-    - name: 某公司D
-      level: silver
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
-
-    - name: 某公司E
-      level: bronze
-      image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
-      link: https://coscup.org
+- level: diamond
+  name: X company
+  intro: ''
+  image: https://coscup.org/2017/9d6b44718521ab3e84ae2f8c4a9b9aa5.png
+  link: https://coscup.org
+- level: gold
+  name: Skymizer
+  intro: |
+    Skymizer is proficient in compiling and virtualization, which helps customers
+    building efficient virtual machine for blockchain and compilers for hardware accelerators
+    of deep learning. Our product “Skymizer C/C++ Intelligent Compiler” is powered
+    by artificial intelligence and compiler techniques which improves both the efficiency
+    and the quality of software automatically. It makes software engineers work smarter
+    and easier.
+  image: https://images.plurk.com/5F8EBZhE9vQB0DT3eVqi.png
+  link: https://skymizer.com/

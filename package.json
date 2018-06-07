@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "COSCUP 2018 website API",
   "scripts": {
-    "build": "rm -rf dist && find src -depth -name *.yml -exec sh -c 'JSON=$(echo $1 | sed -e s/^src/dist/ -e s/yml$/json/); mkdir -p ${JSON%/*} && any-json $1 $JSON' _ {} \\;",
+    "build": "rm -rf dist && find src -depth -name *.yml -exec sh -c 'JSON=$(echo $1 | sed -e s/^src/dist/ -e s/yml$/json/); mkdir -p ${JSON%/*} && any-json $1 $JSON' _ {} \\; && ./crawel.sh",
     "dist": "git subtree push --prefix=dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

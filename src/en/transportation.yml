@@ -6,10 +6,27 @@ location:
 transportation:
     metro:
         name: Taipei Metro
-        description: 
+        description: |
+            Songshan–Xindian line (Green Line):
+            Get out at Gongguan station (G07) via Exit 2, turn left onto Zhoushan Road in the NTU campus, then turn right at Lu-Ming Hall (鹿鳴堂) and head to Keelung Road, cross the road and turn left to enter National Taiwan University of Science and Technology Campus;
+            Or get out at Gongguan station (G07) via Exit 1, take bus #1, #673, #907, G11, BR12 heading to Keelung Road.
+
+            Wenshan–Neihu line (Brown Line):
+            Get out at Liuzhangli station (BR07) and take bus #1, #207, #672, or Keelung Road Metro Bus (#650) heading to Gongguan.
     bus:
         name: Bus
-        description: 
+        description: |
+            You can take #1, #207, #254, #275, #275 sub, #672, #673, #907, G11, BR12, Keelung Road Metro Bus (#650) or Dunhua Metro Bus (#285) to NTUST.
     driving:
         name: Self driving
         description: ...
+    airport:
+        name: Taoyuan Airport
+        description: |
+            You can get to Taipei Main Station and get Taipei Metro, bus or taxi to the venue via methods below:
+
+            Taoyuan Metro:
+            Take Commuter or Express train to Taipei Main Station (A1) from the Airport B1.
+
+            Taiwan High Speed Rail:
+            Take Taoyuan Metro to THSR Taoyuan Station (A18) via Commuter or Express train, then take THSR to Taipei Station.

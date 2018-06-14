@@ -2,9 +2,9 @@ description: "COSCUP 2018 will be on August 11, 12, 2018!"
 place: "International Building (IB), NTUST"
 
 registration:
-    start_at: "2018-06-20 00:00"
-    end_at: "2018-08-04 00:00"
-    link: "https://coscup2018.kktix.cc/"
+    start_at: "2018-06-20 20:00"
+    end_at: "2018-08-07 00:00"
+    link: "https://coscup2018.kktix.cc/events/coscup2018regist"
 
 program:
     call_for_proposal:

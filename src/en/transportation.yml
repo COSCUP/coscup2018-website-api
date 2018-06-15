@@ -7,26 +7,12 @@ transportation:
     metro:
         name: Taipei Metro
         description: |
-            Songshan–Xindian line (Green Line):
-            Get out at Gongguan station (G07) via Exit 2, turn left onto Zhoushan Road in the NTU campus, then turn right at Lu-Ming Hall (鹿鳴堂) and head to Keelung Road, cross the road and turn left to enter National Taiwan University of Science and Technology Campus;
-            Or get out at Gongguan station (G07) via Exit 1, take bus #1, #673, #907, G11, BR12 heading to Keelung Road.
-
-            Wenshan–Neihu line (Brown Line):
-            Get out at Liuzhangli station (BR07) and take bus #1, #207, #672, or Keelung Road Metro Bus (#650) heading to Gongguan.
-    bus:
-        name: Bus
-        description: |
-            You can take #1, #207, #254, #275, #275 sub, #672, #673, #907, G11, BR12, Keelung Road Metro Bus (#650) or Dunhua Metro Bus (#285) to NTUST.
-    driving:
-        name: Self driving
-        description: ...
+            Take Songshan–Xindian line (Green Line) to Gongguan station (G07). Leave Gonguan station via Exit 2, and turn left. Follow Roosevelt Road and head to Keelung Road. Cross Keelung Road, turn left on Keelung Road, and walk for 4 mins. You will see National Taiwan University of Science and Technology Campus on the right hand side. If you enter the campus via the front gate, turn right, and you will arrive the international building (IB).
     airport:
         name: Taoyuan Airport
         description: |
-            You can get to Taipei Main Station and get Taipei Metro, bus or taxi to the venue via methods below:
-
             Taoyuan Metro:
-            Take Commuter or Express train to Taipei Main Station (A1) from the Airport B1.
+            Take Commuter or Express train to Taipei Main Station (A1) from the Airport B1. And follow the "Taipei Metro" guide.
 
             Taiwan High Speed Rail:
-            Take Taoyuan Metro to THSR Taoyuan Station (A18) via Commuter or Express train, then take THSR to Taipei Station.
+            Take Taoyuan Metro to THSR Taoyuan Station (A18) via Commuter or Express train, then take THSR to Taipei Station, and follow the "Taipei Metro" guide.

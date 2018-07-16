@@ -19,5 +19,9 @@ for lang in "${LANGS[@]}"; do
 	# Fetch sponsors
 	curl -Lo "${PLACE}/sponsors.json" "https://script.google.com/macros/s/AKfycbx49lzZ60QVcHXFmrqLFwOi4j09r3WnBQQCaFao_BGNOT8gukM/exec?lang=$lang"
 	$TOOLS/process-sponsors.sh "${PLACE}/sponsors.json"
+
+	# Fetch cohosts
+	curl -Lo "${PLACE}/cohosts.json" "https://script.google.com/a/coscup.tw/macros/s/AKfycbyEYqMFjcP2I3NofpseX3s1gs1Fq7OAz6ryqUJ_Tg/exec?lang=$lang"
+	$TOOLS/process-cohosts.sh "${PLACE}/cohosts.json"
 done
 

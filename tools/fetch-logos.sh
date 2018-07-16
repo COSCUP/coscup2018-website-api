@@ -11,7 +11,7 @@ function fetch-logo {
 	local EXTENSION="${ORIGINAL_FILENAME##*.}"
 	local BASENAME="${ORIGINAL_FILENAME%.*}"
 	local FILENAME="${ASSETS}/${BASENAME}-${DRIVE_ID}.${EXTENSION}"
-	
+
 	if [ ! -f "$FILENAME" ]; then
 		$GDL "$DRIVE_ID" "$FILENAME"
 	fi
@@ -19,11 +19,7 @@ function fetch-logo {
 
 mkdir -p "$ASSETS"
 
-IMAGE_NAME_ID_PAIRS=$(cat - | jq -r '.sponsors[].image? | select(. != null) | .name, .driveId')
-
-eval set -- $IMAGE_NAME_ID_PAIRS
-
-while [ "$1" != "" ]; do
-	fetch-logo "$1" "$2"
-	shift; shift
-done
+cat - | jq -r 'to_entries[] | [.key, .value] | @tsv' |
+	while IFS=$'\t' read -r filename driveId; do
+		fetch-logo $filename $driveId
+	done

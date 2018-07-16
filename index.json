@@ -19,6 +19,7 @@
             "main": "zh_TW/main.json",
             "about": "zh_TW/about.json",
             "programs": "zh_TW/programs.json",
+            "cohosts": "zh_TW/cohosts.json",
             "sponsors": "zh_TW/sponsors.json",
             "transportation": "zh_TW/transportation.json",
             "staffs": "zh_TW/staffs.json"
@@ -27,6 +28,7 @@
             "main": "en/main.json",
             "about": "en/about.json",
             "programs": "en/programs.json",
+            "cohosts": "en/cohosts.json",
             "sponsors": "en/sponsors.json",
             "transportation": "en/transportation.json",
             "staffs": "en/staffs.json"
@@ -35,6 +37,7 @@
             "main": "jp/main.json",
             "about": "jp/about.json",
             "programs": "jp/programs.json",
+            "cohosts": "jp/cohosts.json",
             "sponsors": "jp/sponsors.json",
             "transportation": "jp/transportation.json",
             "staffs": "jp/staffs.json"

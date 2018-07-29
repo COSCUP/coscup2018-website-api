@@ -14,6 +14,8 @@ function fetch-logo {
 
 	if [ ! -f "$FILENAME" ]; then
 		$GDL "$DRIVE_ID" "$FILENAME"
+		echo "Mogrifying $FILENAME"
+		mogrify -strip -resize 600x600\> -quality 70 "$FILENAME"
 	fi
 }
 

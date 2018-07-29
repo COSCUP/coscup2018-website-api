@@ -21,5 +21,5 @@ mkdir -p "$ASSETS"
 
 cat - | jq -r 'to_entries[] | [.key, .value] | @tsv' |
 	while IFS=$'\t' read -r filename driveId; do
-		fetch-logo $filename $driveId
+		fetch-logo "$filename" "$driveId"
 	done

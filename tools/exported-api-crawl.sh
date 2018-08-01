@@ -27,5 +27,8 @@ for lang in "${LANGS[@]}"; do
 	# Fetch programs
 	curl -Lo "${PLACE}/programs.json" "https://script.google.com/macros/s/AKfycbwm9gZrW9H3tN_qk-sW2kIJ4i2BFJu4CJkguRIRekxBM6k1zcjN/exec?lang=$lang"
 	$TOOLS/process-programs.sh "${PLACE}/programs.json"
+
+	# Generate talks
+	node $TOOLS/generate-talks.js $lang
 done
 

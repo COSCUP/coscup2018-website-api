@@ -23,6 +23,6 @@ Object.keys(talks).forEach(k => {
 		talks: { [k]: talk },
 		tracks: { [talk.track]: tracks[talk.track] },
 		speakers: pick(speakers, talk.speakers),
-		communities: pick(communities, talk.communities),
+		communities: pick(communities, tracks[talk.track].communities),
 	}))
 })

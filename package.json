@@ -8,8 +8,9 @@
     "rebuild": "npm run clean && npm run build",
     "dist": "git subtree push --prefix=dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:mkdir": "mkdir -p dist/assets",
     "build:compile-yaml": "find src -depth -name *.yml -exec sh -c 'JSON=$(echo $1 | sed -e s/^src/dist/ -e s/yml$/json/); mkdir -p ${JSON%/*} && any-json $1 $JSON' _ {} \\;",
-    "build:copy-assets": "cp -r src/assets/ dist/assets/",
+    "build:copy-assets": "cp -r src/assets/* dist/assets/",
     "build:crawl-exported-api": "./tools/exported-api-crawl.sh"
   },
   "repository": {

@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "description": "COSCUP 2018 website API",
   "scripts": {
-    "build": "npm run build:compile-yaml && npm run build:crawl-exported-api",
+    "build": "npm run build:compile-yaml && npm run build:copy-assets && npm run build:crawl-exported-api",
     "clean": "rm -r dist/",
     "rebuild": "npm run clean && npm run build",
     "dist": "git subtree push --prefix=dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:compile-yaml": "find src -depth -name *.yml -exec sh -c 'JSON=$(echo $1 | sed -e s/^src/dist/ -e s/yml$/json/); mkdir -p ${JSON%/*} && any-json $1 $JSON' _ {} \\;",
+    "build:copy-assets": "cp -r src/assets/ dist/assets/",
     "build:crawl-exported-api": "./tools/exported-api-crawl.sh"
   },
   "repository": {

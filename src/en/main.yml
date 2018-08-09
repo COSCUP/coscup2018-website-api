@@ -55,10 +55,17 @@ previous_websites:
     2016: "https://coscup.org/2016/"
     2017: "https://coscup.org/2017/"
 
-# webcast:
-#     main_cast: "https://link1"
-#     playlist: "https://www.youtube.com/playlist?list=PLqfib4St70XOZt4e6XNiigzW9GI7iG-Iq"
-#     casts:
-#         - "https://link1"
-#         - "https://link2"
-#         - "https://link3"
+webcast:
+    main_cast: "https://www.youtube.com/watch?v=4SWO4x7bNjo"
+    playlist: "https://www.youtube.com/playlist?list=PLqfib4St70XP6uP66xOs4fajw4aSOuHr4"
+    casts:
+        - title: IB101 Live Cast
+          link: "https://www.youtube.com/watch?v=4SWO4x7bNjo"
+        - title: IB201 Live Cast
+          link: "https://www.youtube.com/watch?v=GpyJMmEH0Fw"
+        - title: IB202 Live Cast
+          link: "https://www.youtube.com/watch?v=Il57SiZbZcA"
+        - title: IB301 Live Cast
+          link: "https://www.youtube.com/watch?v=RMCelVjr2-U"
+        - title: IB302 Live Cast
+          link: "https://www.youtube.com/watch?v=s7GGlk8CV5I"
